@@ -19,10 +19,25 @@
   table.body .container {
     width: $global-width-small !important;
   }
-  .btn-align .button{
-    width: 272px!important;
+  .row_picture .button{
+    width: 80px!important;
     margin: auto!important;
   }
+  .mob-h{
+    display: none!important;
+  }
+  .mob-h td{
+    height: 1px!important;
+    line-height: 1!important;
+  }
+  .mb-mob{
+    margin-bottom: 20px!important;
+  }
+  hr.mt_0{
+    margin-top: 25px!important;
+  }
+
+
   //If it supports border-box, why not? Am I right?
   //Also, by default pad that to the global-gutter variable
   table.body .columns,
